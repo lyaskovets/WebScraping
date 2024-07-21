@@ -120,4 +120,4 @@ if __name__ == '__main__':
                 if list_element not in existing_id:
                     data = get_auction_info(list_element)
                     add_to_database(data)
-                    print("added new item: ", list_element)
+                    # print("added new item: ", list_element)
